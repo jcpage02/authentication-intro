@@ -1,13 +1,11 @@
 {
-  "name": "authentication-intro",
+  "name": "auth-mini",
   "version": "0.1.0",
   "private": true,
-  "main": "server/server.js",
-  "proxy":"http://localhost:4000",
   "dependencies": {
     "axios": "^0.18.0",
     "bcryptjs": "^2.4.3",
-    "dot-env": "0.0.1",
+    "dotenv": "^6.2.0",
     "express": "^4.16.4",
     "express-session": "^1.15.6",
     "massive": "^5.7.2",
@@ -29,5 +27,7 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "proxy": "http://localhost:4000",
+  "main": "server/server.js"
 }
